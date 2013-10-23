@@ -61,7 +61,7 @@ directory node[:lightnet][:application_directory] do
 end
 
 git "#{node[:lightnet][:application_directory]}/reddit" do 
-  repo 'https://github.com/new-day-international/reddit.git'
+  repo 'https://github.com/caseypatrickdriscoll/reddit.git'
   user node[:lightnet][:user]
   group node[:lightnet][:group]
 end
